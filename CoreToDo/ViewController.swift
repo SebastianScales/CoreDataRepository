@@ -36,6 +36,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return tasks.count
     }
     
+    var Github: String = ""
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         
